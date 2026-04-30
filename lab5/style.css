@@ -1,0 +1,320 @@
+h1, h2, h3 {
+    font-family: 'Cormorant Garamond', serif; 
+    text-transform: uppercase; 
+    letter-spacing: 1px;
+    color: #5B21B6; 
+    text-align: center;
+}
+
+body {
+    font-family: 'Lora', serif; 
+    line-height: 1.6;
+}
+
+.main-menu a {
+    font-family: 'Cormorant Garamond', serif; 
+    text-decoration: none;
+    color: #5B21B6;
+    font-weight: bold;
+}
+
+.team-wrapper {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.dev-card img {
+    width: 150px;           
+    height: 150px;              
+    border: 3px solid #5B21B6;
+    margin-bottom: 15px;
+    object-fit: cover;      
+    display: block;         
+    margin-left: auto;      
+    margin-right: auto;     
+}
+
+.dev-card {
+    display: inline-block;
+    vertical-align: top;
+    width: 260px;
+    min-height: 380px; 
+    margin: 15px;
+    padding: 20px;
+    background-color: #F5F3FF;
+    border: 1px solid #5B21B6;
+    border-radius: 15px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+.dev-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(91, 33, 182, 0.15);
+}
+
+.photo-wrapper {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 15px auto;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #5B21B6;
+}
+
+.photo-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.dev-name {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #5B21B6;
+    margin: 10px 0;
+    min-height: 3em; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dev-role {
+    font-family: 'Lora', serif;
+    font-size: 0.95em;
+    color: #444;
+    line-height: 1.4;
+}
+
+main.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    height: 350px;
+    background-color: #F5F3FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+header h1 {
+    margin: 0 0 20px 0;
+}
+
+header nav {
+    width: 100%;
+    text-align: center;
+}
+
+.main-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px 20px;
+    font-family: 'Cormorant Garamond', serif; 
+    color: #5B21B6;
+    border-top: 1px solid #5B21B6;
+    margin-top: 30px;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 90%;
+}
+
+table, th, td {
+    border: 1px solid #5B21B6;
+    padding: 10px;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #F5F3FF;
+}
+
+.no-bullets {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.image-container {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    height: auto;
+    max-width: 100%;
+}
+
+.info-section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.subtitle {
+    font-family: 'Cormorant Garamond', serif; 
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.team-section {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.dev-block {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    margin: 15px;
+    text-align: center;
+    border: 1px solid #5B21B6;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #F5F3FF;
+}
+
+.dev-block img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+.dev-block .dev-name {
+    font-family: 'Cormorant Garamond', serif; 
+    color: #5B21B6;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.dev-block .dev-role {
+    font-family: 'Lora', serif; 
+    font-size: 0.9em;
+    color: #7C3AED;
+}
+
+.form-section {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 30px;
+    border: 1px solid #5B21B6;
+    border-radius: 10px;
+    background-color: #F5F3FF; 
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group > label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #5B21B6;
+    font-family: 'Cormorant Garamond', serif;
+    text-transform: uppercase;
+}
+
+.checkbox-label {
+    display: flex;         
+    align-items: center;   
+    gap: 10px;             
+    margin-bottom: 8px;
+    font-family: 'Lora', serif;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.checkbox-label input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    margin: 0;             
+    cursor: pointer;
+    flex-shrink: 0;        
+}
+
+.form-group input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #5B21B6;
+    border-radius: 5px;
+    font-family: 'Lora', serif;
+    box-sizing: border-box;
+}
+
+.form-btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #5B21B6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form-btn:hover {
+    background-color: #7C3AED;
+}
+
+@media (max-width: 768px) {
+    header {
+        height: auto;
+        padding: 20px 15px;
+    }
+
+    header h1 {
+        font-size: 1.2em;
+    }
+
+    .main-menu {
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+
+    main.container {
+        padding: 0 12px;
+    }
+
+    table {
+        width: 100%;
+        font-size: 0.85em;
+    }
+
+    .dev-block {
+        width: 150px;
+        margin: 8px;
+    }
+
+    .form-section {
+        padding: 15px;
+        margin: 15px auto;
+    }
+}
